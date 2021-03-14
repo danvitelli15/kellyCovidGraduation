@@ -1,7 +1,8 @@
 import React from "react";
+import Trivia from "./pages/trivia/Index";
 
 function App() {
-  return <div>Hello World</div>;
+  return <Trivia />;
 }
 
 export default App;
