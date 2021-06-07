@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Trivia from "./pages/trivia/Index";
 import { ScoreContext } from "./utils/ScoreContext";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -12,7 +14,16 @@ function App() {
         increaseScore: () => setScore((prev) => score + 1),
       }}
     >
-      <Trivia />
+      <Router>
+        <Switch>
+          <Route path="/trivia">
+            <Trivia />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
     </ScoreContext.Provider>
   );
 }
