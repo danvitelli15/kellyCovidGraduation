@@ -16,10 +16,10 @@ function App() {
     >
       <Router>
         <Switch>
-          <Route path="/trivia">
+          <Route path="/kellyCovidGraduation/trivia">
             <Trivia />
           </Route>
-          <Route path="/">
+          <Route path="/kellyCovidGraduation/">
             <Home />
           </Route>
         </Switch>
