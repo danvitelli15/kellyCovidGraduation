@@ -7,7 +7,7 @@ const Results = () => {
     if (score <= 10) {
       return <p>Maybe you should go ask Kelly a little about herself...</p>;
     } else if (score <= 20) {
-      return <p>You seem to know a fair amount about kelly.</p>;
+      return <p>You seem to know a fair amount about Kelly.</p>;
     } else {
       return <p>You should go tell Kelly how well you know her.</p>;
     }
@@ -24,7 +24,7 @@ const Results = () => {
         )}
       </ScoreContext.Consumer>
       <p>Food is availble in the garage.</p>
-      <p>Please refer to Kelly as a blueberry blond to her face constantly.</p>
+
     </Jumbotron>
   );
 };
