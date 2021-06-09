@@ -1,3 +1,7 @@
 legend:focus {
-  outline: none;
+	outline: none;
+}
+
+button:hover {
+	background-color: #444444 !important;
 }
