@@ -8,7 +8,7 @@ const Questions: Array<Question> = [
   { Question: "What day of the month was Kelly born?", Answer: "9th", WrongAnswers: ["18th", "28th", "12th"] },
   {
     Question: "What does Kelly want to study in college?",
-    Answer: "Early Childhood Education",
+    Answer: "Elementary Education",
     WrongAnswers: ["Programming", "Robotics", "English"],
   },
   {
@@ -41,25 +41,24 @@ const Questions: Array<Question> = [
   {
     Question: "What school will Kelly be attending in the fall?",
     Answer: "University of Wisconsin River Falls",
-    WrongAnswers: ["University of Saint Thomas", "University of Minnesota Duluth", "University of Wisconsin Eau Claire"],
+    WrongAnswers: ["University of Saint Thomas", "Saint Scholastica", "University of Wisconsin Eau Claire"],
   },
   {
-    Question: "Which extra cirricular activiities did Kelly NOT participate in during high school?",
+    Question: "Which extra cirricular activity did Kelly NOT participate in during high school?",
     Answer: "Costumes",
     WrongAnswers: ["Robotics", "Speech", "Drone Racing"],
   },
-  /*
-  { Question: "What is Kelly's favorite subject?", Answer: "TBD", WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"] },
+  
+  { Question: "What is Kelly's favorite subject?", Answer: "English", WrongAnswers: ["Spanish", "Physics", "Math"] },
   {
     Question: "What is Kelly's least favorite subject?",
-    Answer: "TBD",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    Answer: "Math",
+    WrongAnswers: ["English", "Religion", "History"],
   },
-  */
   {
     Question: `Kelly is not a "strawberry blonde" but a what?`,
     Answer: "blueberry blonde",
-    WrongAnswers: ["raspberry blone", "blackberry blonde", "lingonberry blonde"],
+    WrongAnswers: ["raspberry blonde", "blackberry blonde", "canteloupe blonde"],
   },
   {
     Question: "What is Kelly's favorite nick name for Everest?",
@@ -69,39 +68,39 @@ const Questions: Array<Question> = [
   {
     Question: "What is Kelly's favorite type of popcorn?",
     Answer: "White Cheddar (Aldi's)",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    WrongAnswers: ["Microwave Popcorn", "Puffcorn", "Plain Popcorn"],
   },
   {
     Question: "What is Kelly's favorite dessert?",
     Answer: "Wonder bars",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    WrongAnswers: ["Brownies", "Cookie bars", "Cake pops"],
   },
-  { Question: "What is Kelly's favorite meal?", Answer: "TBD", WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"] },
+  { Question: "What is Kelly's favorite meal?", Answer: "Parmesan Crusted Chicken", WrongAnswers: ["Chicken Tenders", "Lasagna", "Stuffed Green Peppers"] },
   {
     Question: "What is Kelly's favorite Disney movie?",
-    Answer: "TBD",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    Answer: "Cinderella",
+    WrongAnswers: ["The Little Mermaid", "Tangled", "Frozen"],
   },
   {
     Question: "What is Kelly's favorite Disney character?",
-    Answer: "TBD",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    Answer: "Mickey Mouse",
+    WrongAnswers: ["Minnie Mouse", "Donald Duck", "Daisy Duck"],
   },
   {
-    Question: "What is Kelly's favorite Disney princess?",
-    Answer: "TBD",
-    WrongAnswers: ["Wrong 1", "Wrong 2", "Wrong 3"],
+    Question: "Which are Kelly's favorite Disney princesses?",
+    Answer: "Cinderella and Jasmine",
+    WrongAnswers: ["Cinderella and Ariel", "Jasmine and Ariel", "Cinderella and Elsa"],
   },
   { Question: "What instrument does Kelly play?", Answer: "Flute", WrongAnswers: ["Trombone", "Piano", "Piccolo"] },
   {
     Question: "How many years has Kelly participated in band?",
     Answer: "8",
-    WrongAnswers: ["7", "6", " 9"],
+    WrongAnswers: ["7", "6", "9"],
   },
   {
     Question: "What does Kelly volunteer for on Sundays?",
     Answer: "Sunday School",
-    WrongAnswers: ["FMSC", "Partnership Acadmey", "ARC Value Village"],
+    WrongAnswers: ["FMSC", "Partnership Academy", "ARC Value Village"],
   },
 ];
 
