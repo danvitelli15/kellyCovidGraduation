@@ -288,7 +288,7 @@
         },
         p = s(12),
         m = s(4),
-        v = s.p + "/static/media/kelly.545d4a74.jpg",
+        v = s.p + "static/media/kelly.545d4a74.jpg",
         x = function () {
           return Object(y.jsx)(l.a, {
             children: Object(y.jsxs)(f.a, {
